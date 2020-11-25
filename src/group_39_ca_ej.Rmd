@@ -25,5 +25,5 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
-The overall trend of CalEnviroScreen 3.0 scores show that areas with a lower white population (percent white) have higher scores than ones with higher percentages. This means that communities with a lower proportion of white people tend to experience more pollution burden than ones with more white people, according to CaliEnviroScreen. 
+The overall trend of CalEnviroScreen 3.0 scores show that areas with a lower white population (percent white) have higher scores than ones with higher percentages. This means that communities with a lower proportion of white people tend to experience more pollution burden than ones with more white people, according to CalEnviroScreen. 
 

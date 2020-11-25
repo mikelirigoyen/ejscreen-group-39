@@ -1,0 +1,20 @@
+---
+title: "Group 39 CA pollution burden"
+author: "Mikel Irigoyen and Teague Tran"
+date: "11/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+```{r}
+ces <- read_csv(here("data", "ces3demographics.csv"))%>% #read in data
+  clean_names() #clean names (lowersnakecase)
+```
+
